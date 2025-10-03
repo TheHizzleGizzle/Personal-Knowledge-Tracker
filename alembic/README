@@ -1,0 +1,7 @@
+This directory contains Alembic migration scripts for the Knowledge Metabolism Tracker API.
+
+Run migrations with:
+  alembic upgrade head
+
+Create a new migration with:
+  alembic revision --autogenerate -m "your message"

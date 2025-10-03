@@ -1,0 +1,398 @@
+<!--[CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Metabolism Tracker</title>
+    <meta name="description" content="Turn knowledge overload into unstoppable velocity with the Knowledge Metabolism Tracker. Sense shifts, activate learning, and align action instantly.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-TkY3wTnMB3fZ0pQvtpNSTNbK/CtYQgQki71R+xVQ1BM8DT6vKrrf5gkP7FpC18JNpDutVdGsPV1oVYhcbOE0VQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <a class="skip-link" href="#hero">Skip to main content</a>
+
+    <div class="background-canvas" aria-hidden="true">
+        <span class="orb orb--1" data-depth="0.05"></span>
+        <span class="orb orb--2" data-depth="0.1"></span>
+        <span class="orb orb--3" data-depth="0.2"></span>
+        <span class="orb orb--4" data-depth="0.35"></span>
+        <span class="orb orb--5" data-depth="0.5"></span>
+        <span class="orb orb--6" data-depth="0.65"></span>
+    </div>
+    <div class="grain-overlay" aria-hidden="true"></div>
+
+    <div class="app-shell">
+        <header class="site-header" data-reveal>
+            <div class="container header-inner">
+                <a class="brand" href="#hero">
+                    <span class="brand-mark">KMT</span>
+                    <span class="brand-text">Knowledge Metabolism Tracker</span>
+                </a>
+
+                <div class="nav-wrapper">
+                    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="nav-toggle__line"></span>
+                        <span class="nav-toggle__line"></span>
+                        <span class="nav-toggle__line"></span>
+                    </button>
+
+                    <nav id="primary-navigation" class="primary-nav" aria-label="Primary">
+                        <ul class="nav-list">
+                            <li><a href="#hero" data-nav-link>Overview</a></li>
+                            <li><a href="#signal" data-nav-link>Solutions</a></li>
+                            <li><a href="#insights" data-nav-link>Insights Loop</a></li>
+                            <li><a href="#momentum" data-nav-link>Momentum</a></li>
+                            <li><a href="#cta" data-nav-link>Get Started</a></li>
+                        </ul>
+                        <div class="nav-actions">
+                            <a class="btn btn-ghost" href="#signal">How it works</a>
+                            <a class="btn btn-primary" href="#cta">Start pilot</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main id="main">
+            <section class="hero" id="hero" data-reveal>
+                <div class="container hero-grid">
+                    <div class="hero-copy" data-stagger>
+                        <p class="eyebrow" data-stagger-item>AI-accelerated knowledge intelligence</p>
+                        <h1 class="hero-title" data-stagger-item>
+                            Transform knowledge overload into unstoppable velocity
+                        </h1>
+                        <p class="hero-subheadline" data-stagger-item>
+                            KMT orchestrates ingestion, learning, and activation so every insight lands in the right mind at the right moment.
+                        </p>
+                        <div class="hero-actions" data-stagger-item>
+                            <a class="btn btn-primary btn-xl" href="#cta">
+                                Launch pilot
+                                <span class="btn-glow" aria-hidden="true"></span>
+                            </a>
+                            <button class="btn btn-ghost btn-xl" type="button" data-scroll-to="#insights">
+                                Watch the intelligence loop
+                            </button>
+                        </div>
+                        <div class="hero-trust" data-stagger-item>
+                            <p class="trust-label">Trusted by product-led, research-heavy teams</p>
+                            <ul class="trust-logos">
+                                <li>NovaLabs</li>
+                                <li>StrataForge</li>
+                                <li>Helix Works</li>
+                                <li>Atlas Research</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hero-media" aria-hidden="true" data-stagger>
+                        <div class="media-frame" data-stagger-item>
+                            <div class="media-header">
+                                <span class="media-pill">Signal Stream</span>
+                                <span class="media-pill media-pill--accent">Live</span>
+                            </div>
+                            <div class="media-body">
+                                <div class="media-chart">
+                                    <div class="chart-bar" style="--value:82"></div>
+                                    <div class="chart-bar" style="--value:64"></div>
+                                    <div class="chart-bar" style="--value:94"></div>
+                                    <div class="chart-bar" style="--value:58"></div>
+                                    <div class="chart-bar" style="--value:86"></div>
+                                </div>
+                                <div class="media-panels">
+                                    <div class="panel-card floating-card">
+                                        <span class="panel-label">Focus velocity</span>
+                                        <strong class="panel-value">2.4×</strong>
+                                        <span class="panel-meta">↑ vs last sprint</span>
+                                    </div>
+                                    <div class="panel-card floating-card floating-card--delayed">
+                                        <span class="panel-label">Retention halo</span>
+                                        <strong class="panel-value">93%</strong>
+                                        <span class="panel-meta">After AI reinforcement</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media-footer">
+                                <div class="pulse-badge">
+                                    <span class="pulse-dot"></span>
+                                    Insight surge in Behavioral Systems
+                                </div>
+                            </div>
+                        </div>
+                        <div class="callout-metric" data-stagger-item>
+                            <span class="metric-label">Time-to-Insight</span>
+                            <span class="metric-value">↓ 47%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scroll-indicator" aria-hidden="true">
+                    <span class="scroll-line"></span>
+                    <span class="scroll-text">Scroll to explore</span>
+                </div>
+            </section>
+
+            <section class="signal" id="signal" data-reveal>
+                <div class="container section-intro">
+                    <p class="eyebrow">Momentum within minutes</p>
+                    <h2 class="section-title">See meaningful lift in week one</h2>
+                    <p class="section-subtitle">
+                        Plug KMT into your knowledge stack and instantly surface gaps, overlaps, and high-impact insights.
+                    </p>
+                </div>
+
+                <div class="container signal-grid" data-stagger>
+                    <article class="signal-card" data-stagger-item>
+                        <div class="signal-icon">
+                            <i class="fa-solid fa-wave-square" aria-hidden="true"></i>
+                        </div>
+                        <h3>Ingestion tuned for meaning</h3>
+                        <p>
+                            Normalize streams from docs, wikis, notebooks, and research hubs using adaptive context models that boost signal while keeping noise out.
+                        </p>
+                        <ul class="signal-points">
+                            <li>Automatic enrichment &amp; tagging</li>
+                            <li>Relevance scoring by initiative</li>
+                            <li>Quality gating with AI assist</li>
+                        </ul>
+                    </article>
+
+                    <article class="signal-card" data-stagger-item>
+                        <div class="signal-icon">
+                            <i class="fa-solid fa-brain-circuit" aria-hidden="true"></i>
+                        </div>
+                        <h3>Predictive knowledge routing</h3>
+                        <p>
+                            Forecast who needs what insight next, then dispatch micro-briefings and learning loops exactly when they will land strongest.
+                        </p>
+                        <ul class="signal-points">
+                            <li>Adaptive nudges tied to OKRs</li>
+                            <li>Retention monitoring in real-time</li>
+                            <li>Effortless handoff into workflows</li>
+                        </ul>
+                    </article>
+
+                    <article class="signal-card" data-stagger-item>
+                        <div class="signal-icon">
+                            <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
+                        </div>
+                        <h3>Momentum intelligence cockpit</h3>
+                        <p>
+                            Track knowledge velocity, dormant assets primed for reuse, and blind spots before they impact delivery.
+                        </p>
+                        <ul class="signal-points">
+                            <li>Directional momentum scoring</li>
+                            <li>Cross-team resonance mapping</li>
+                            <li>Single-click experiment briefings</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section class="insights-section" id="insights" data-reveal>
+                <div class="container insights-grid">
+                    <div class="insights-copy" data-stagger>
+                        <p class="eyebrow" data-stagger-item>Sense → Learn → Activate</p>
+                        <h2 class="section-title" data-stagger-item>Orchestrate the intelligence loop with precision</h2>
+                        <p class="section-subtitle" data-stagger-item>
+                            Every touchpoint is instrumented for feedback, compounding what works and refining what doesn’t—without overwhelming your teams.
+                        </p>
+
+                        <div class="insights-steps" data-stagger-item>
+                            <div class="step">
+                                <span class="step-index">01</span>
+                                <div>
+                                    <h3>Sense signal shifts</h3>
+                                    <p>Detect pattern breaks across research, product, and customer channels. KMT scores volatility and urgency automatically.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <span class="step-index">02</span>
+                                <div>
+                                    <h3>Curate the learning arc</h3>
+                                    <p>Auto-generate narratives, flash drills, and spaced reinforcement sequences tailored to each role.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <span class="step-index">03</span>
+                                <div>
+                                    <h3>Activate aligned action</h3>
+                                    <p>Push the right insight into roadmaps, rituals, and briefs so teams pivot together—fast.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="inline-metric" data-stagger-item>
+                            <span class="metric-value">87%</span>
+                            <span class="metric-copy">
+                                drop in duplicated effort across R&amp;D after 30 days on KMT.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="insights-media" aria-hidden="true" data-stagger>
+                        <div class="insights-window" data-stagger-item>
+                            <header>
+                                <span class="window-pill">Momentum Radar</span>
+                                <span class="window-time">Updated 4m ago</span>
+                            </header>
+                            <div class="window-body">
+                                <div class="radar-grid">
+                                    <div class="radar-node radar-node--active">
+                                        <span>Systems Design</span>
+                                        <small>92 resonance</small>
+                                    </div>
+                                    <div class="radar-node">
+                                        <span>Cognitive Ops</span>
+                                        <small>76 resonance</small>
+                                    </div>
+                                    <div class="radar-node">
+                                        <span>Human Factors</span>
+                                        <small>68 resonance</small>
+                                    </div>
+                                    <div class="radar-node">
+                                        <span>Market Signals</span>
+                                        <small>58 resonance</small>
+                                    </div>
+                                </div>
+
+                                <div class="window-stream">
+                                    <div class="stream-item">
+                                        <span class="stream-tag stream-tag--trend">Surging</span>
+                                        <p>New synthesis: “Adaptive insight loops for distributed decision-making.”</p>
+                                        <span class="stream-meta">Routed to Product Labs · 2m ago</span>
+                                    </div>
+                                    <div class="stream-item">
+                                        <span class="stream-tag">Reawakened</span>
+                                        <p>Archived deck “Systems Thinking for Platform Scalability” flagged as instantly relevant.</p>
+                                        <span class="stream-meta">Revived for Strategy Council</span>
+                                    </div>
+                                    <div class="stream-item">
+                                        <span class="stream-tag stream-tag--alert">Gap</span>
+                                        <p>Behavioral economics coverage below threshold—launch micro-learning sprint.</p>
+                                        <span class="stream-meta">Suggested sensemaking sprint · Due Friday</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="badge-stack" data-stagger-item>
+                            <div class="badge">
+                                <span class="badge-label">Learning resonance</span>
+                                <strong>+34%</strong>
+                            </div>
+                            <div class="badge">
+                                <span class="badge-label">Insight adoption</span>
+                                <strong>4.7×</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="momentum-section" id="momentum" data-reveal>
+                <div class="container section-intro">
+                    <p class="eyebrow">The Momentum Loop</p>
+                    <h2 class="section-title">Keep every brain in sync without forcing more meetings</h2>
+                    <p class="section-subtitle">
+                        Align strategies, experiments, and customer intelligence with lightweight, high-impact rituals powered by KMT.
+                    </p>
+                </div>
+
+                <div class="container momentum-grid" data-stagger>
+                    <article class="momentum-step" data-stagger-item>
+                        <span class="step-number">1</span>
+                        <h3>Sensemaking Pulse</h3>
+                        <p>Daily 90-second digest synthesizes the loudest signals—and the silent ones.</p>
+                        <span class="step-meta">Delivered in Slack, Notion, and email.</span>
+                    </article>
+                    <article class="momentum-step" data-stagger-item>
+                        <span class="step-number">2</span>
+                        <h3>Activation Briefings</h3>
+                        <p>Auto-generated briefs slot into planning docs and sprint kickoffs with actionable context.</p>
+                        <span class="step-meta">Context-aware assignments ready to deploy.</span>
+                    </article>
+                    <article class="momentum-step" data-stagger-item>
+                        <span class="step-number">3</span>
+                        <h3>Retention Loops</h3>
+                        <p>Micro-interactions reinforce adoption through nudges, quizzes, and live dashboards.</p>
+                        <span class="step-meta">Integrated with copilots &amp; LMS.</span>
+                    </article>
+                    <article class="momentum-step" data-stagger-item>
+                        <span class="step-number">4</span>
+                        <h3>Predictive Insights</h3>
+                        <p>Scenario engine forecasts blind spots and recommends next best knowledge moves.</p>
+                        <span class="step-meta">Decision co-pilot for leadership.</span>
+                    </article>
+                </div>
+
+                <div class="container momentum-stats">
+                    <div class="stat-card">
+                        <span class="stat-label">Knowledge velocity index</span>
+                        <span class="stat-value">+62%</span>
+                        <span class="stat-meta">after 45 days</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Meeting load</span>
+                        <span class="stat-value">−28%</span>
+                        <span class="stat-meta">reduction across product &amp; research</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Activation lag</span>
+                        <span class="stat-value">−19 hrs</span>
+                        <span class="stat-meta">from discovery to execution</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta-section" id="cta" data-reveal>
+                <div class="container cta-card">
+                    <div class="cta-copy" data-stagger>
+                        <p class="eyebrow" data-stagger-item>Ready when you are</p>
+                        <h2 class="section-title" data-stagger-item>Launch your pilot and feel the shift in one sprint</h2>
+                        <p class="section-subtitle" data-stagger-item>
+                            Bring KMT into your flow, keep your existing tools, and unlock relentless knowledge momentum with zero data fatigue.
+                        </p>
+                        <div class="cta-actions" data-stagger-item>
+                            <a class="btn btn-primary btn-xl" href="mailto:hello@kmt.ai">
+                                Book a guided session
+                            </a>
+                            <a class="btn btn-light btn-xl" href="#signal">
+                                Download pilot playbook
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cta-glow" aria-hidden="true">
+                        <span class="cta-orb cta-orb--left"></span>
+                        <span class="cta-orb cta-orb--right"></span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-grid">
+                <div class="footer-brand">
+                    <span class="brand-mark">KMT</span>
+                    <p>Knowledge Metabolism Tracker keeps critical insight in motion.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#signal">Solutions</a>
+                    <a href="#insights">Platform</a>
+                    <a href="#momentum">Workflow</a>
+                    <a href="#cta">Pricing</a>
+                </div>
+                <div class="footer-meta">
+                    <span>© <span id="current-year"></span> Knowledge Metabolism Tracker. All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+]]></update>
