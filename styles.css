@@ -230,18 +230,8 @@ kbd {
 }
 
 /* Spacing utilities */
-@for $i from 1 through 6 {} /* placeholder to avoid CSS errors for SCSS */
-
-.u-mb-none { margin-bottom: 0 !important; }
 .u-mb-xs { margin-bottom: var(--space-xs) !important; }
-.u-mb-sm { margin-bottom: var(--space-sm) !important; }
-.u-mb-md { margin-bottom: var(--space-md) !important; }
-.u-mb-lg { margin-bottom: var(--space-lg) !important; }
-.u-mb-xl { margin-bottom: var(--space-xl) !important; }
 
-.u-py-lg {
-    padding-block: var(--space-lg);
-}
 
 /* ========================================================================== */
 /* 5. Typography & Text Elements                                               */
